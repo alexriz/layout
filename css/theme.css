@@ -1,0 +1,24 @@
+.header {
+    background: #ccc;
+    padding: 20px;
+}
+
+.main {
+    background: #eee;
+    padding: 20px;
+}
+
+.footer {
+    background: #ddd;
+    padding: 20px;
+}
+
+.box {
+    background: #aaa;
+    border: 1px solid #999;
+    display: none;
+    padding: 20px;
+}
+.toggle:checked ~ .box {
+    display: block;
+}
