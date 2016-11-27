@@ -1,0 +1,56 @@
+html {
+    font: 1em/normal sans-serif;
+}
+
+body {
+    width: 100%;
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea, input, button, select {
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+button::-moz-focus-inner {
+    margin: 0;
+    padding: 0;
+    border: 0
+}
+
+template {
+    display: none;
+}
+
+a {
+    color: #1194c4;
+    text-decoration: underline;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+:focus {
+    outline: none;
+}
+
+img {
+    border: 0;
+}
+
+.header {
+    flex: 0 0 auto;
+}
+
+.main {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex: 0 0 auto;
+}
